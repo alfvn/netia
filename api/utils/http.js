@@ -23,12 +23,12 @@ instance.interceptors.request.use(
   }
 )
 
-instance.interceptors.responce.use(
+instance.interceptors.response.use(
   (res) => {
     if (res.status === 200) {
       return res.data
     } else {
-      return Promise.reject(err)
+      return Promise.reject(res)
     }
   },
   (err) => {

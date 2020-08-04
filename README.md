@@ -1,5 +1,14 @@
 # 网络交互
 
+### 体验
+
+```bash
+npm i
+vue serve Login.vue #需要先全局安装 @vue/cli-service-global
+```
+
+### 功能
+
 前端开发中主要工作集中在页面交互和网络交互。在网络交互方面，在业务之外，我们需要依然需要做一些封装。
 
 1. axios
