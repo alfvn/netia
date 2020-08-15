@@ -33,7 +33,7 @@ instance.interceptors.response.use(
   },
   (err) => {
     //   错误拦截处理
-    // errorhandler(status,msg)
+    errorhandler(err.response.status)
     // 断网处理
     if (!window.navigator.onLine) {
       // ...

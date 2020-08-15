@@ -1,6 +1,6 @@
 const toLogin = () => {}
 const tips = () => {}
-const errorHandler = (status, msg) => {
+const errorHandler = (status) => {
   switch (status) {
     case 401:
       // 未登录 跳转到登录页
@@ -16,7 +16,7 @@ const errorHandler = (status, msg) => {
       tips('请求不存在')
       break
     default:
-      tips('请求出错！' + msg)
+      tips('请求出错！')
       break
   }
 }
