@@ -4,7 +4,7 @@
   "description": "前端开发中主要工作集中在页面交互和网络交互。在网络交互方面，在业务之外，我们需要依然需要做一些封装。",
   "main": "index.js",
   "dependencies": {
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "mockjs": "^1.1.0"
   },
   "devDependencies": {},
